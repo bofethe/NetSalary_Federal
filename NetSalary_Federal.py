@@ -10,8 +10,6 @@ def totalSalary(salary = 0):
     try:
         rate = 0
         base = 0
-        salary = salary.replace('$', '')
-        salary = salary.replace(',','')
         salary = float(salary)
 
         if salary <= 9950:
